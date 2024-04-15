@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wonder.payment.sdk",
+    "module": "wonderpayment-android",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wonderpayment-android-0.2.0.aar",
+          "url": "wonderpayment-android-0.2.0.aar",
+          "size": 3023434,
+          "sha512": "4c032da0f022b14e4f7718c49478432d5a9ca756032b515efe22902631f768d3e208c9985d46a41043b7fc321650b45e3c7041b0b809ca1b7135e2459ce7463a",
+          "sha256": "4660e3c4ea5b0b142db595833904cfde58c2f31d42c3215923da4bacfe149caf",
+          "sha1": "828e6154a7f8cc066f5c07d085995529aeb308cc",
+          "md5": "87f0b8858f42009796d175bf29e818cf"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.alipay.sdk",
+          "module": "alipaysdk-android",
+          "version": {
+            "requires": "15.8.17"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "alipaysdk-android",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.tencent.mm.opensdk",
+          "module": "wechat-sdk-android",
+          "version": {
+            "requires": "6.8.24"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wonderpayment-android-0.2.0.aar",
+          "url": "wonderpayment-android-0.2.0.aar",
+          "size": 3023434,
+          "sha512": "4c032da0f022b14e4f7718c49478432d5a9ca756032b515efe22902631f768d3e208c9985d46a41043b7fc321650b45e3c7041b0b809ca1b7135e2459ce7463a",
+          "sha256": "4660e3c4ea5b0b142db595833904cfde58c2f31d42c3215923da4bacfe149caf",
+          "sha1": "828e6154a7f8cc066f5c07d085995529aeb308cc",
+          "md5": "87f0b8858f42009796d175bf29e818cf"
+        }
+      ]
+    }
+  ]
+}
